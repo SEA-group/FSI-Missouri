@@ -1,1 +1,141 @@
-<ASB015_Missouri_1950_Bow_ports.visual><node><identifier>Scene Root</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.000000 0.000000</row3></transform><node><identifier>Bow_ports</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform><node><identifier>HP_AD_1</identifier><transform><row0>0.707107 0.000000 0.707107 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>-0.707107 0.000000 0.707107 0.000000</row2><row3>-0.145905 0.563549 5.775022 1.000000</row3></transform></node><node><identifier>HP_AD_2</identifier><transform><row0>0.707107 0.000000 -0.707107 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.707107 0.000000 0.707107 0.000000</row2><row3>0.145873 0.563548 5.775019 1.000000</row3></transform></node><node><identifier>HP_AGA_1</identifier><transform><row0>0.906308 0.000000 0.422618 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>-0.422618 0.000000 0.906308 0.000000</row2><row3>-0.114282 0.704840 9.030495 1.000000</row3></transform></node><node><identifier>HP_AGA_2</identifier><transform><row0>0.906308 0.000000 -0.422618 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.422618 0.000000 0.906308 0.000000</row2><row3>0.114257 0.704840 9.030495 1.000000</row3></transform></node><node><identifier>HP_AGA_3</identifier><transform><row0>0.707107 0.000000 0.707107 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>-0.707107 0.000000 0.707107 0.000000</row2><row3>-0.273550 0.493396 6.536607 1.000000</row3></transform></node><node><identifier>HP_AGA_4</identifier><transform><row0>0.707107 0.000000 -0.707107 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.707107 0.000000 0.707107 0.000000</row2><row3>0.270831 0.493386 6.536607 1.000000</row3></transform></node><node><identifier>HP_AGA_5</identifier><transform><row0>0.707107 0.000000 0.707107 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>-0.707107 0.000000 0.707107 0.000000</row2><row3>-0.326349 0.457961 5.941620 1.000000</row3></transform></node><node><identifier>HP_AGA_6</identifier><transform><row0>0.707107 0.000000 -0.707107 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.707107 0.000000 0.707107 0.000000</row2><row3>0.326349 0.457962 5.941620 1.000000</row3></transform></node><node><identifier>HP_AGM_1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.454892 4.184488 1.000000</row3></transform></node><node><identifier>HP_Fire_Burn_1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 6.951808 1.000000</row3></transform></node><node><identifier>HP_Ship_death_1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 3.432472 1.000000</row3></transform></node></node></node><boundingBox><min>-0.066700 -0.066700 -0.066700</min><max>0.066700 0.066700 0.066700</max></boundingBox></ASB015_Missouri_1950_Bow_ports.visual>
+<ASB015_Missouri_1950_Bow_ports.visual>
+    <node>
+        <identifier>	Scene Root	</identifier>
+        <transform>
+            <row0> 1.000000 0.000000 0.000000 </row0>
+            <row1> 0.000000 1.000000 0.000000 </row1>
+            <row2> 0.000000 0.000000 1.000000 </row2>
+            <row3> 0.000000 0.000000 0.000000 </row3>
+        </transform>
+        <node>
+            <identifier>	Bow_ports	</identifier>
+            <transform>
+                <row0> 1.000000 0.000000 0.000000 0.000000 </row0>
+                <row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+                <row2> 0.000000 0.000000 1.000000 0.000000 </row2>
+                <row3> 0.000000 0.000000 0.000000 1.000000 </row3>
+            </transform>
+			<node>
+				<identifier>	HP_AD_1	</identifier>
+				<transform>
+					<row0> 0.707107 0.000000 0.707107 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> -0.707107 0.000000 0.707107 0.000000 </row2>
+					<row3> -0.145905 0.563549 5.775022 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AD_2	</identifier>
+				<transform>
+					<row0> 0.707107 0.000000 -0.707107 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> 0.707107 0.000000 0.707107 0.000000 </row2>
+					<row3> 0.145873 0.563548 5.775019 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_1	</identifier>
+				<transform>
+					<row0> 0.906308 0.000000 0.422618 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> -0.422618 0.000000 0.906308 0.000000 </row2>
+					<row3> -0.114282 0.704840 9.030495 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_2	</identifier>
+				<transform>
+					<row0> 0.906308 0.000000 -0.422618 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> 0.422618 0.000000 0.906308 0.000000 </row2>
+					<row3> 0.114257 0.704840 9.030495 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_3	</identifier>
+				<transform>
+					<row0> 0.707107 0.000000 0.707107 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> -0.707107 0.000000 0.707107 0.000000 </row2>
+					<row3> -0.273550 0.493396 6.536607 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_4	</identifier>
+				<transform>
+					<row0> 0.707107 0.000000 -0.707107 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> 0.707107 0.000000 0.707107 0.000000 </row2>
+					<row3> 0.270831 0.493386 6.536607 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_5	</identifier>
+				<transform>
+					<row0> 0.707107 0.000000 0.707107 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> -0.707107 0.000000 0.707107 0.000000 </row2>
+					<row3> -0.326349 0.457961 5.941620 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_6	</identifier>
+				<transform>
+					<row0> 0.707107 0.000000 -0.707107 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> 0.707107 0.000000 0.707107 0.000000 </row2>
+					<row3> 0.326349 0.457962 5.941620 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGM_1	</identifier>
+				<transform>
+					<row0> 1.000000 0.000000 0.000000 0.000000 </row0>
+					<row1> 0.000000 1.000000 0.000000 0.000000 </row1>
+					<row2> 0.000000 0.000000 1.000000 0.000000 </row2>
+					<row3> 0.000000 0.454892 4.184488 1.000000 </row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.7448 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5613 6.0110 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 8.7534 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.4325 1.0000	</row3>
+				</transform>
+			</node>
+        </node>
+    </node>
+    <boundingBox>
+        <min> -0.066700 -0.066700 -0.066700 </min>
+        <max> 0.066700 0.066700 0.066700 </max>
+    </boundingBox>
+</ASB015_Missouri_1950_Bow_ports.visual>
